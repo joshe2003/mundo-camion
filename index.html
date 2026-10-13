@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mundo Camión | Todo sobre camiones</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background: linear-gradient(135deg, #212529 0%, #343a40 60%, #dc3545 100%);
+      color: #fff;
+      padding: 6rem 0;
+    }
+    .hero .big-icon { font-size: 7rem; line-height: 1; }
+    .card-icon { font-size: 3rem; }
+    .card { transition: transform .2s, box-shadow .2s; }
+    .card:hover { transform: translateY(-6px); box-shadow: 0 .75rem 1.5rem rgba(0,0,0,.2); }
+    section { scroll-margin-top: 70px; }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#inicio">🚛 Mundo Camión</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+              aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#tipos">Tipos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#marcas">Marcas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#datos">Datos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="inicio" class="hero text-center text-lg-start">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <h1 class="display-3 fw-bold">La fuerza que mueve al mundo</h1>
+          <p class="lead mt-3">Los camiones transportan alimentos, materiales y mercancías todos los días.
+            Descubra sus tipos, las marcas más reconocidas y datos curiosos de estos gigantes del camino.</p>
+          <a href="#tipos" class="btn btn-danger btn-lg mt-3 me-2">Conocer tipos</a>
+          <a href="#marcas" class="btn btn-outline-light btn-lg mt-3">Ver marcas</a>
+        </div>
+        <div class="col-lg-5 text-center mt-5 mt-lg-0">
+          <div class="big-icon">🚚🚛</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Tipos -->
+  <section id="tipos" class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-2">Tipos de camiones</h2>
+      <p class="text-center text-muted mb-5">Cada trabajo tiene su camión ideal.</p>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <div class="card-icon">🚛</div>
+              <h5 class="card-title mt-2">Tractocamión</h5>
+              <p class="card-text">Cabina con remolque articulado. Ideal para largas distancias y carga pesada.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <div class="card-icon">🚚</div>
+              <h5 class="card-title mt-2">Camión de reparto</h5>
+              <p class="card-text">Mediano y ágil, perfecto para entregas urbanas y distribución local.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <div class="card-icon">🏗️</div>
+              <h5 class="card-title mt-2">Volqueta</h5>
+              <p class="card-text">Con caja basculante para descargar arena, grava y escombros en obras.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <div class="card-icon">🛢️</div>
+              <h5 class="card-title mt-2">Cisterna</h5>
+              <p class="card-text">Transporta líquidos como combustible, agua o productos químicos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marcas -->
+  <section id="marcas" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">Marcas reconocidas</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-6 col-md-3"><div class="p-4 bg-white border rounded text-center fw-semibold fs-5">Kenworth</div></div>
+        <div class="col-6 col-md-3"><div class="p-4 bg-white border rounded text-center fw-semibold fs-5">Freightliner</div></div>
+        <div class="col-6 col-md-3"><div class="p-4 bg-white border rounded text-center fw-semibold fs-5">Peterbilt</div></div>
+        <div class="col-6 col-md-3"><div class="p-4 bg-white border rounded text-center fw-semibold fs-5">International</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Datos -->
+  <section id="datos" class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">Datos curiosos</h2>
+      <div class="row text-center g-4 mb-5">
+        <div class="col-md-4">
+          <div class="display-4 fw-bold text-danger">40 t</div>
+          <p class="text-muted">Peso máximo típico de un tractocamión cargado en muchos países.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="display-4 fw-bold text-danger">18</div>
+          <p class="text-muted">Ruedas en un tráiler de cinco ejes, común en Norteamérica.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="display-4 fw-bold text-danger">+70%</div>
+          <p class="text-muted">Proporción de mercancías que en muchos países se mueve por carretera.</p>
+        </div>
+      </div>
+
+      <div class="accordion" id="faq">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1">
+              ¿Qué significa "tractocamión"?
+            </button>
+          </h2>
+          <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faq">
+            <div class="accordion-body">Es la unidad motriz (cabina y motor) que jala un semirremolque donde va la carga.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2">
+              ¿Por qué usan tantos ejes?
+            </button>
+          </h2>
+          <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faq">
+            <div class="accordion-body">Más ejes reparten mejor el peso, protegen el pavimento y permiten llevar más carga de forma segura.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3">
+              ¿Qué es un camión eléctrico?
+            </button>
+          </h2>
+          <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faq">
+            <div class="accordion-body">Un camión que usa baterías en lugar de diésel, con menos ruido y cero emisiones locales.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-5 bg-dark text-white">
+    <div class="container" style="max-width: 600px;">
+      <h2 class="text-center fw-bold mb-4">Contáctenos</h2>
+      <form onsubmit="event.preventDefault(); alert('¡Gracias por su mensaje!'); this.reset();">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo</label>
+          <input type="email" class="form-control" id="correo" required>
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-danger w-100">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-black text-center text-secondary py-3">
+    <small>© 2026 Mundo Camión · Hecho con Bootstrap 5</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
